@@ -17,7 +17,7 @@ session_start();
 ob_start();
 
 /* config settings */
-$base = "http://www.bbc.co.uk";  //set this to the url you want to scrape
+$base = "http://www.google.com";  //set this to the url you want to scrape
 $ckfile = '/tmp/simpleproxy-cookie-'.session_id();  //this can be set to anywhere you fancy!  just make sure it is secure.
 
 
